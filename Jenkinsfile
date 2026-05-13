@@ -4,8 +4,8 @@ pipeline {
     environment {
         GIT_REPO = 'https://github.com/shrustidodamani/Jenkinsandjava.git'
         AWS_REGION = 'ap-south-1'
-        ECR_REPO_NAME = 'ecr-repo1'
-        ECR_PUBLIC_REPO_URI = '092042970106.dkr.ecr.ap-south-1.amazonaws.com/ecr-repo1'
+        ECR_REPO_NAME = 'ecrrepo'
+        ECR_PUBLIC_REPO_URI = '092042970106.dkr.ecr.ap-south-1.amazonaws.com/ecrrepo'
         IMAGE_TAG = 'latest'
         AWS_ACCOUNT_ID = '092042970106'
         IMAGE_URI = "${ECR_PUBLIC_REPO_URI}:${IMAGE_TAG}"
